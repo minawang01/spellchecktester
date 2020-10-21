@@ -1,3 +1,6 @@
+**Project was a coding problem from the Data Structures and Algorithms in Java course at Columbia University**
+
+
 I implemented a spell-checker using a hashtable. I created a class called `SpellChecker` in the file `SpellChecker.java` that implements the interface `SpellCheckerInterface.java`.  The object will try to check for spelling errors in an input file, referencing a provided dictionary file. The `SpellChecker` object must accept the filename of the dictionary in its constructor. There is a sample dictionary file called `words.txt`.
 
 The constructor of the object parses the dictionary file, storing the words in a `HashSet` instance. The `SpellChecker` object uses this dictionary as a reference when checking for spelling errors in a specified input file. Please note that **every word added to the `HashSet` instance must be in lower case**. In addition to the constructor, two methods are implemented to complete the functionality of your `SpellChecker` object.
